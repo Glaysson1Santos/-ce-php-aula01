@@ -35,7 +35,7 @@
       </tr>
       <tr>
         <td>B / A</td>
-        <td><?php echo number_format($b / $a, 3, '.', ','); ?></td>
+        <td><?php echo number_format (pow ($b,$a) 3, '.', '.'); ?></td>
       </tr>
        </table>
   </body>
